@@ -6,8 +6,8 @@ export const portfolioList: Portfolio[] = [
     imageThumbnail: "/assets/images/project_3.png",
     description:
       "This is a personal branding project that I created using Next JS, Tailwind CSS, and Framer Motion. This project consists of a website that showcases my skills, achievements, and personality. The website has seven sections: Home, About, Experiences, Portfolio, and Contact. The website is designed to be responsive, interactive, and engaging. The website aims to impress and connect with potential clients, employers, and collaborators. I use the repository for this portfolio from the Muhammad Sufyan repository and already have permission from the owner for me to use it.",
-    livePreviewURL: "https://rizal-fauzi-portfolio.vercel.app/",
-    repositoryURL: "https://github.com/RizalFauzi02/personal-portfolio",
+    livePreviewURL: "https://rizal-fauzi-portofolio.vercel.app/",
+    repositoryURL: "https://github.com/RizalFauzi02/personal-portofolio",
     techStack: [
       {
         tech: "Next JS",
