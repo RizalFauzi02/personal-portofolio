@@ -39,8 +39,9 @@ function ExperienceSectionComponent(): React.JSX.Element {
           direction="column"
           rowGap={{ base: 3, lg: 5 }}
         >
-          <SectionSubtitle>Work Experiences⌛</SectionSubtitle>
-          <SectionDescription>I&apos;m also experienced at some website development and software testing that i learn for over 1 years will described below</SectionDescription>
+          <SectionSubtitle>Work Experiences</SectionSubtitle>
+          <SectionDescription>I have some of my experience in the field of programmers and outside programmers. Internship experience, freelance work, to work contracts.</SectionDescription>
+          {/* <SectionDescription>I&apos;m also experienced at some website development and software testing that i learn for over 1 years will described below</SectionDescription> */}
         </Flex>
 
         {/* Experience Section Work Experiences Container */}

@@ -37,7 +37,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
           y="10"
           href={image}
           width="180"
-          height="180"
+          height="190"
         />
       </g>
     </svg>

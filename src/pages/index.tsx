@@ -9,8 +9,8 @@ const SkillsSectionComponent: React.ComponentType = dynamic((): LoaderComponent 
 const EducationSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/EducationSectionComponent"));
 const ExperienceSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/ExperienceSectionComponent"));
 const PortfolioSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/PortfolioSectionComponent"));
-const GetInTouchComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/GetInTouchComponent"));
-const BlogSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/BlogSectionComponent"));
+// const GetInTouchComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/GetInTouchComponent"));
+// const BlogSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/BlogSectionComponent"));
 const ContactSectionComponent: React.ComponentType = dynamic((): LoaderComponent => import("@/components/ContactSectionComponent"));
 
 export default function MainPage(): React.JSX.Element {
@@ -26,8 +26,8 @@ export default function MainPage(): React.JSX.Element {
       <EducationSectionComponent />
       <ExperienceSectionComponent />
       <PortfolioSectionComponent />
-      <GetInTouchComponent />
-      <BlogSectionComponent />
+      {/* <GetInTouchComponent />
+      <BlogSectionComponent /> */}
       <ContactSectionComponent />
       <ScrollToTopButton />
     </Box>

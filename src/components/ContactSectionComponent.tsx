@@ -46,8 +46,9 @@ function ContactSectionComponent(): React.JSX.Element {
           direction="column"
           rowGap={{ base: 3, lg: 5 }}
         >
-          <SectionSubtitle>Feel Free To Contact Me📨</SectionSubtitle>
-          <SectionDescription>I&apos;am always open to discussing product design, collaborating work or partnerships. Just contact me with this media below</SectionDescription>
+          <SectionSubtitle>Contact Me</SectionSubtitle>
+          <SectionDescription>Please contact me via the media below.</SectionDescription>
+          {/* <SectionDescription>I&apos;am always open to discussing product design, collaborating work or partnerships. Just contact me with this media below</SectionDescription> */}
         </Flex>
 
         {/* Contact Section Contact Card Content */}
@@ -227,7 +228,7 @@ function ContactSectionComponent(): React.JSX.Element {
                       <FormLabel>Your Subject</FormLabel>
                       <Input
                         id="subject"
-                        placeholder="Your Subject. Example: Hey, I Wanna Collaborate"
+                        placeholder="Your Subject. Example: Interview invitation"
                         borderWidth="2px"
                         paddingY={8}
                         paddingX={4}
@@ -269,7 +270,7 @@ function ContactSectionComponent(): React.JSX.Element {
                       <FormLabel>Your Message</FormLabel>
                       <Textarea
                         id="message"
-                        placeholder="Your Message. Example: Hey, I Wanna Collaborate Because I Have A Project"
+                        placeholder="Your Message. Example: Interview invitation"
                         resize="none"
                         size="md"
                         borderWidth="2px"

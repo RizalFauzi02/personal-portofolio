@@ -1,18 +1,18 @@
 import type { Profile } from "@/types";
 
 export const profileData: Profile = {
-  name: "Muhammad Sufyan",
+  name: "Rizal Fauzi",
   region: "Indonesia",
-  CV: "/assets/pdf/Muhammad Sufyan CV.pdf",
-  divisions: ["Frontend Developer", "Software Tester", "Mobile Developer"],
-  pictures: ["/assets/images/home-profile.webp", "/assets/images/about-profile.webp"],
+  CV: "/assets/pdf/CV_Rizal Fauzi.pdf",
+  divisions: ["Full Stack Developer", "IT Staff", "Web Developer", "IT Support"],
+  pictures: ["/assets/images/profile-home.png", "/assets/images/profile-home.png"],
   descriptions: [
-    "I create stunning website for your business, Intermediate experienced in web design and development.",
-    "Hello everyone! I am Muhammad Sufyan, a frontend mobile and website developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help many people in the future. Can work alone or in a team.",
+    "I have passionate experience with web accessibility and responsive web design. Designing and developing web applications and increasing their efficiency in the performance process of the company.",
+    "Hello everyone! I am Rizal Fauzi, a full stack developer and website developer. I am a intermediate experienced and I hope with this I can always learning something new. Continue to develop in learning about website developers, especially in PHP language and PHP frameworks. And can work in a team or individually.",
   ],
   experiences: [
     {
-      number: 2,
+      number: 1,
       title: "Years Of Experience",
     },
     {
@@ -20,7 +20,7 @@ export const profileData: Profile = {
       title: "Programming Language Used",
     },
     {
-      number: 6,
+      number: 1,
       title: "Successed Projects",
     },
   ],

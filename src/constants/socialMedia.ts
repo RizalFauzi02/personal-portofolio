@@ -1,25 +1,25 @@
-import { FaFacebookF, FaInstagram, FaTiktok, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGitlab, FaWhatsapp, FaGithub } from "react-icons/fa";
 import type { SocialMedia } from "@/types";
 
 export const socialMediaList: SocialMedia[] = [
   {
-    SocialMediaIcon: FaFacebookF,
-    link: "https://web.facebook.com/profile.php?id=100048861012103",
+    SocialMediaIcon: FaLinkedin,
+    link: "https://www.linkedin.com/in/rizal-fauzi-2001/",
   },
   {
     SocialMediaIcon: FaInstagram,
-    link: "https://www.instagram.com/lastwolfxd/",
+    link: "https://instagram.com/rizaalfauzii_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+  },
+  {
+    SocialMediaIcon: FaGitlab,
+    link: "https://gitlab.com/rizalfauzi02",
   },
   {
     SocialMediaIcon: FaGithub,
-    link: "https://github.com/Muhammad-Sufyan-901",
+    link: "https://github.com/RizalFauzi02",
   },
   {
-    SocialMediaIcon: FaTiktok,
-    link: "https://tiktok.com/@penggunaaplbiasa",
-  },
-  {
-    SocialMediaIcon: FaDiscord,
-    link: "https://discord.com/users/865796356241096704",
+    SocialMediaIcon: FaWhatsapp,
+    link: "https://wa.me/6289664091196",
   },
 ];

@@ -53,7 +53,7 @@ function HomeSectionComponent(): React.JSX.Element {
               fontWeight="semibold"
               fontSize="1rem"
             >
-              Hi There👋
+              Hello I&apos;m
             </Text>
 
             <Text

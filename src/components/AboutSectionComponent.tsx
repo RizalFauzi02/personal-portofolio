@@ -51,12 +51,12 @@ function AboutSectionComponent(): React.JSX.Element {
             <Box
               overflow="hidden"
               borderRadius="1rem"
-              transform={{ base: "rotate(0)", lg: "rotate(10deg)" }}
+              transform={{ base: "rotate(0)", lg: "rotate(0)" }}
               height={{ base: "22.5rem", md: "27.5rem", lg: "35rem", xl: "40rem" }}
               transition="all 300ms"
-              _hover={{
-                transform: "rotate(0)",
-              }}
+              // _hover={{
+              //   transform: "rotate(0)",
+              // }}
             >
               <Image
                 src={pictures[1]}
@@ -97,7 +97,7 @@ function AboutSectionComponent(): React.JSX.Element {
                   fontWeight="semibold"
                   fontSize={{ base: "1.75rem", lg: "2rem" }}
                 >
-                  Hello👋 i&apos;am{" "}
+                  Hello, i&apos;am{" "}
                   <Text
                     as="span"
                     color="primary"
@@ -118,14 +118,14 @@ function AboutSectionComponent(): React.JSX.Element {
                     as="span"
                     color="primary"
                   >
-                    {divisions[0]}🧑‍💻
+                    {divisions[0]}
                   </Text>{" "}
-                  based in{" "}
+                  And{" "}
                   <Text
                     as="span"
                     color="primary"
                   >
-                    {region}🌏
+                    {divisions[2]}
                   </Text>
                 </Text>
 

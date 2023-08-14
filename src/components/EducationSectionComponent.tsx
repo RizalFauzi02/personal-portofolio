@@ -1,9 +1,10 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Badge, Box, Container, Flex, Grid, GridItem } from "@chakra-ui/react";
-import { AiFillTrophy } from "react-icons/ai";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { MdOutlineSchool } from "react-icons/md";
-import { AwardListItem, EducationListItem, SectionDescription, SectionSubtitle, SectionTitle } from "@/fragments";
+import { BsFillAwardFill } from "react-icons/bs";
+import { AwardListItem, EducationListItem, SectionDescription, SectionSubtitle, SectionTitle, PrimaryButton } from "@/fragments";
 import { awardList, educationList } from "@/constants";
 import { fadeInTransition, staggeredContainer } from "@/utils";
 import SectionLayout from "@/layouts/SectionLayout";
@@ -47,9 +48,31 @@ function EducationSectionComponent(): React.JSX.Element {
               alignItems="center"
               rowGap={{ base: 3, lg: 5 }}
             >
-              <SectionSubtitle>Educations🎓 & Awards🏆</SectionSubtitle>
+              <SectionSubtitle>Educations & Certificate</SectionSubtitle>
 
-              <SectionDescription>There are some formal education & awards that i&apos;ve reached below</SectionDescription>
+              <SectionDescription>There are some formal education & certificate that i&apos;ve reached below</SectionDescription>
+
+              <Box
+                as={motion.div}
+                variants={fadeInTransition("left", "tween", 0.1, 1)}
+                marginTop={3}
+                marginX={{ base: "auto", lg: "0" }}
+              >
+                <PrimaryButton
+                  as="a"
+                  href="https://drive.google.com/drive/folders/1PeZChCmjY1-EXJq-qKsk1COzAOUyidqz?usp=sharing"
+                  target="_blank"
+                  variant="outline"
+                  size="xl"
+                  paddingY="4"
+                  paddingX={{ base: "8", lg: "12" }}
+                  borderRadius="0.5rem"
+                  columnGap="1"
+                  rightIcon={<BsFillAwardFill fontSize="1.25rem" />}
+                >
+                  My Certificate
+                </PrimaryButton>
+              </Box>
             </Flex>
           </GridItem>
 
@@ -122,8 +145,8 @@ function EducationSectionComponent(): React.JSX.Element {
                   columnGap={3}
                   borderRadius="md"
                 >
-                  <AiFillTrophy fontSize={18} />
-                  Awards
+                  <AiOutlineSafetyCertificate fontSize={18} />
+                  Certificate
                 </Badge>
 
                 <Box marginTop={8}>

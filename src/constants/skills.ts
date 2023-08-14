@@ -16,44 +16,14 @@ export const skillList: Skill[] = [
   {
     skillIcon: "/assets/svg/javascript.svg",
     title: "JavaScript",
-    level: "Advanced",
+    level: "Intermediate",
     description: "JavaScript is a programming language that can create dynamic and interactive content on web pages.",
-  },
-  {
-    skillIcon: "/assets/svg/react.svg",
-    title: "React JS",
-    level: "Intermediate",
-    description: "ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on components.",
-  },
-  {
-    skillIcon: "/assets/svg/next js.svg",
-    title: "Next JS",
-    level: "Intermediate",
-    description: "Next.js is a React framework that provides building blocks, features, and optimizations for web applications.",
   },
   {
     skillIcon: "/assets/svg/tailwind.svg",
     title: "Tailwind CSS",
-    level: "Intermediate",
+    level: "Basic",
     description: "Tailwind CSS is a utility-first CSS framework for building custom user interfaces.",
-  },
-  {
-    skillIcon: "/assets/svg/typescript.svg",
-    title: "TypeScript",
-    level: "Basic",
-    description: "TypeScript is a programming language that builds on JavaScript.",
-  },
-  {
-    skillIcon: "/assets/svg/react native.svg",
-    title: "React Native",
-    level: "Basic",
-    description: "React Native is a free and open-source framework for building mobile applications using React.",
-  },
-  {
-    skillIcon: "/assets/svg/angular.svg",
-    title: "Angular",
-    level: "Basic",
-    description: "Angular is a development platform and framework for building scalable web applications.",
   },
   {
     skillIcon: "/assets/svg/bootstrap.svg",
@@ -64,7 +34,7 @@ export const skillList: Skill[] = [
   {
     skillIcon: "/assets/svg/php.svg",
     title: "PHP",
-    level: "Basic",
+    level: "Advanced",
     description: "PHP is a server-side scripting language designed specifically for web development.",
   },
   {
@@ -76,33 +46,63 @@ export const skillList: Skill[] = [
   {
     skillIcon: "/assets/svg/codeigniter.svg",
     title: "CodeIgniter",
-    level: "Basic",
+    level: "Advanced",
     description: "CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.",
-  },
-  {
-    skillIcon: "/assets/svg/node js.svg",
-    title: "Node JS",
-    level: "Basic",
-    description: "Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
   },
   {
     skillIcon: "/assets/svg/laravel.svg",
     title: "Laravel",
-    level: "Basic",
+    level: "Intermediate",
     description: "Laravel is a PHP framework for building web applications with expressive, elegant syntax.",
   },
-  {
-    skillIcon: "/assets/svg/vite.svg",
-    title: "Vite",
-    level: "Basic",
-    description: "Vite is a front-end build tool that aims to provide a faster and leaner development experience for modern web projects.",
-  },
-  {
-    skillIcon: "/assets/svg/material ui.svg",
-    title: "Material UI",
-    level: "Basic",
-    description: "Material UI is a CSS framework that provides React components out-of-the-box and follows Google’s Material Design.",
-  },
+  // {
+  //   skillIcon: "/assets/svg/react.svg",
+  //   title: "React JS",
+  //   level: "Intermediate",
+  //   description: "ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on components.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/next js.svg",
+  //   title: "Next JS",
+  //   level: "Intermediate",
+  //   description: "Next.js is a React framework that provides building blocks, features, and optimizations for web applications.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/typescript.svg",
+  //   title: "TypeScript",
+  //   level: "Basic",
+  //   description: "TypeScript is a programming language that builds on JavaScript.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/react native.svg",
+  //   title: "React Native",
+  //   level: "Basic",
+  //   description: "React Native is a free and open-source framework for building mobile applications using React.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/angular.svg",
+  //   title: "Angular",
+  //   level: "Basic",
+  //   description: "Angular is a development platform and framework for building scalable web applications.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/node js.svg",
+  //   title: "Node JS",
+  //   level: "Basic",
+  //   description: "Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/vite.svg",
+  //   title: "Vite",
+  //   level: "Basic",
+  //   description: "Vite is a front-end build tool that aims to provide a faster and leaner development experience for modern web projects.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/material ui.svg",
+  //   title: "Material UI",
+  //   level: "Basic",
+  //   description: "Material UI is a CSS framework that provides React components out-of-the-box and follows Google’s Material Design.",
+  // },
 ];
 
 export const toolList: Skill[] = [
@@ -119,10 +119,10 @@ export const toolList: Skill[] = [
     description: "GitHub is a web-based platform that provides a wide range of features for developers to collaborate on software development projects.",
   },
   {
-    skillIcon: "/assets/svg/figma.svg",
-    title: "Figma",
+    skillIcon: "/assets/svg/gitlab.svg",
+    title: "Gitlab",
     level: "Basic",
-    description: "Figma is a web-based design and prototyping tool that can be used to create mobile app interfaces, websites, social media posts, and more.",
+    description: "GitLab is one of America's fastest-growing private software companies, posting huge gains in 2022.",
   },
   {
     skillIcon: "/assets/svg/xampp.svg",
@@ -131,15 +131,21 @@ export const toolList: Skill[] = [
     description: "XAMPP is a free and open-source development environment that allows developers to create and test web applications on their local machines.",
   },
   {
-    skillIcon: "/assets/svg/android studio.svg",
-    title: "Android Studio",
-    level: "Basic",
-    description: "Android Studio is the official Integrated Development Environment (IDE) for Android app development.",
-  },
-  {
     skillIcon: "/assets/svg/git.svg",
     title: "Git",
     level: "Basic",
     description: "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.",
   },
+  // {
+  //   skillIcon: "/assets/svg/figma.svg",
+  //   title: "Figma",
+  //   level: "Basic",
+  //   description: "Figma is a web-based design and prototyping tool that can be used to create mobile app interfaces, websites, social media posts, and more.",
+  // },
+  // {
+  //   skillIcon: "/assets/svg/android studio.svg",
+  //   title: "Android Studio",
+  //   level: "Basic",
+  //   description: "Android Studio is the official Integrated Development Environment (IDE) for Android app development.",
+  // },
 ];

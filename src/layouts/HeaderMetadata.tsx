@@ -4,7 +4,8 @@ import Head from "next/head";
 export default function HeaderMetadata(): React.JSX.Element {
   return (
     <Head>
-      <title>Muhammad Sufyan&apos;s Portfolio Website</title>
+      {/* <title>Rizal Fauzi&apos;s Portfolio Website</title> */}
+      <title>Rizal Fauzi | Portfolio Website</title>
 
       <meta
         name="viewport"
@@ -12,15 +13,15 @@ export default function HeaderMetadata(): React.JSX.Element {
       />
       <meta
         name="subject"
-        content="Muhammad sufyan, Frontend Website and Mobile Developer"
+        content="Rizal Fauzi, Full Stack Developer and Web Developer"
       />
       <meta
         name="description"
-        content="Hello Everyone👋 I'am Muhammad Sufyan. A Frontend Developer and Mobile Developer from Indonesia. This is my personal portfolio website that created using Next.js and Chakra UI"
+        content="Hello Everyone👋 I'am Rizal Fauzi. A Web Developer and Full Stack Developer from Indonesia. This is my personal portfolio website that created using Next.js and Chakra UI"
       />
       <meta
         name="author"
-        content="Muhammad Sufyan"
+        content="Rizal Fauzi"
       />
 
       <link

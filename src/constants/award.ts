@@ -2,18 +2,28 @@ import type { Award } from "@/types";
 
 export const awardList: Award[] = [
   {
-    award: "5 Th Winner Web Design Competition",
-    place: "UNBI University",
-    years: "September - 2023",
+    award: "Junior Web Developer LSP Informatika",
+    place: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    years: "November 2021 - November 2024",
   },
   {
-    award: "Completed ZettaCamp Frontend Bootcamp",
-    place: "Zettabyte Pte Ltd",
-    years: "April - 2022",
+    award: "Software Development Junior Web Programmer",
+    place: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    years: "November 2021 - November 2024",
   },
   {
-    award: "Completed ZettaCamp Angular Bootcamp",
-    place: "Zettabyte Pte Ltd",
-    years: "January - 2022",
+    award: "Junior Web Developer LSP LP3I",
+    place: "Lembaga Sertifikasi Profesi LP3I",
+    years: "September 2021 - September 2024",
+  },
+  {
+    award: "Software Development Database Administrator",
+    place: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    years: "July 2021 - July 2024",
+  },
+  {
+    award: "Database Administrator",
+    place: "Lembaga Sertifikasi Profesi LP3I",
+    years: "April 2021 - April 2024",
   },
 ];

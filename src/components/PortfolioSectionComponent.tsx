@@ -38,8 +38,9 @@ function PortfolioSectionComponent(): React.JSX.Element {
           direction="column"
           rowGap={{ base: 3, lg: 5 }}
         >
-          <SectionSubtitle>Project I&apos;ve Created💼</SectionSubtitle>
-          <SectionDescription>I&apos;ve created a few project while i was learing about frontend website development. and all of project i&apos;ll explain below</SectionDescription>
+          <SectionSubtitle>Project I&apos;ve Created</SectionSubtitle>
+          <SectionDescription>I&apos;ve been making several projects while I was learning about website development. Some projects have been done in a team and done by myself. And all my projects will be described below.</SectionDescription>
+          {/* <SectionDescription>I&apos;ve created a few project while i was learing about frontend website development. and all of project i&apos;ll explain below</SectionDescription> */}
         </Flex>
 
         {/* Portfolio Section Content Container */}
@@ -72,7 +73,7 @@ function PortfolioSectionComponent(): React.JSX.Element {
           )}
         </Grid>
 
-        <Center
+        {/* <Center
           as={motion.div}
           variants={fadeInTransition("up", "tween", 0.5, 1.1)}
           marginTop={10}
@@ -86,7 +87,7 @@ function PortfolioSectionComponent(): React.JSX.Element {
           >
             View All Projects
           </PrimaryButton>
-        </Center>
+        </Center> */}
       </Container>
     </Box>
   );
