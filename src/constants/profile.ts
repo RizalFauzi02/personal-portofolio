@@ -20,7 +20,7 @@ export const profileData: Profile = {
       title: "Programming Language Used",
     },
     {
-      number: 1,
+      number: 2,
       title: "Successed Projects",
     },
   ],

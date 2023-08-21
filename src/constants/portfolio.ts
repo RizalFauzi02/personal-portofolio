@@ -23,28 +23,32 @@ export const portfolioList: Portfolio[] = [
       },
     ],
   },
-  // {
-  //   title: "Phantom Landing Page",
-  //   imageThumbnail: "/assets/images/project-02.webp",
-  //   description:
-  //     "Phantom is a website that I created using HTML, CSS, and JavaScript. This website displays information about a company that sells phones with the Phantom brand. This website also showcases the features, specifications, and prices of the Phantom phones, as well as the customer reviews and feedback. This website aims to attract and inform potential buyers about the quality and innovation of the Phantom phones.",
-  //   livePreviewURL: "https://lomba-web-design.vercel.app/",
-  //   repositoryURL: "https://github.com/Muhammad-Sufyan-901/lomba-web-design",
-  //   techStack: [
-  //     {
-  //       tech: "HTML",
-  //       logo: "/assets/svg/html.svg",
-  //     },
-  //     {
-  //       tech: "CSS",
-  //       logo: "/assets/svg/css.svg",
-  //     },
-  //     {
-  //       tech: "JavaScript",
-  //       logo: "/assets/svg/javascript.svg",
-  //     },
-  //   ],
-  // },
+  {
+    title: "PSB Online",
+    imageThumbnail: "/assets/images/project_2.png",
+    description:
+      "This is just a simple new admissions application, using the PHP programming language with the CodeIgniter 3 framework, frontend templates, and javascript. The creation of this website is intended for the BNSP certification exam on Junior Web Developers in 2021.",
+    livePreviewURL: "http://psbonline.lovestoblog.com/",
+    repositoryURL: "https://github.com/RizalFauzi02/PSBOnline",
+    techStack: [
+      {
+        tech: "HTML",
+        logo: "/assets/svg/html.svg",
+      },
+      {
+        tech: "PHP",
+        logo: "/assets/svg/php.svg",
+      },
+      {
+        tech: "CodeIgniter",
+        logo: "/assets/svg/codeigniter.svg",
+      },
+      {
+        tech: "JavaScript",
+        logo: "/assets/svg/javascript.svg",
+      },
+    ],
+  },
   // {
   //   title: "Petabyte Landing Page",
   //   imageThumbnail: "/assets/images/project-03.webp",
